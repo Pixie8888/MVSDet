@@ -31,7 +31,7 @@ CUDA_VISIBLE_DEVICES=0,1  bash tools/dist_train.sh projects/NeRF-Det/configs/mvs
 
 ## Test
 ```
-CUDA_VISIBLE_DEVICES=0,1  bash tools/dist_test.sh projects/NeRF-Det/configs/mvsdet_res50_2x_low_res.py work_dirs/nerfdet_res50_2x_low_res/Depth\=12_\[0_2_5_0\]_Gaussian+Tgt\=120+MVSPlat+rgb_again/best_mAP_0.25_epoch_11.pth 2
+CUDA_VISIBLE_DEVICES=0,1  bash tools/dist_test.sh projects/NeRF-Det/configs/mvsdet_res50_2x_low_res.py path/to/checkpoint.pth 2
 ```
 
 
